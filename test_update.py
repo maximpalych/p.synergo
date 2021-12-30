@@ -1,7 +1,7 @@
 # SynergoMSVKTOOLS
-# version 1.0
+# version 2.0
 from update_check import isUpToDate
-VERSION = 1.0
+VERSION = 2.0
 
 if __name__ == "__main__":
 
