@@ -1,9 +1,8 @@
 # SynergoMSVKTOOLS
 # version 1.0
-from update_check import isUpToDate
-VERSION = 2.0
+from update_check import checkForUpdates
+VERSION = 1.0
+RAW_PATH = "https://raw.githubusercontent.com/maximpalych/p.synergo/main/test_update_new.py"
 
 if __name__ == "__main__":
-
-    if isUpToDate(__file__, "https://raw.githubusercontent.com/maximpalych/p.synergo/main/test_update.py"):
-        print('new version found!')
+    checkForUpdates(__file__, RAW_PATH)
